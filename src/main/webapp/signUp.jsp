@@ -148,7 +148,7 @@
             </div>
             <div style="margin-top: 10px; margin-bottom: 20px;">
               <div style="text-align: center">
-                Already have an accountt? <a href="<%= request.getContextPath() %>/login.html">Sign In</a>
+                Already have an accountt? <a href="<%= request.getContextPath() %>/login.jsp">Sign In</a>
               </div>
             </div>
           </div>
