@@ -54,12 +54,12 @@
                 </div>
                 <div style="margin-top: 10px">
                     <div style="text-align: center">
-                        Don't have any account? <a href="<%=request.getContextPath()%>/signUp.html">Sign Up</a>
+                        Don't have any account? <a href="<%=request.getContextPath()%>/signUp.jsp">Sign Up</a>
                     </div>
                 </div>
                 <div style="margin-top: 10px">
                     <div style="text-align: center">
-                        <a href="<%=request.getContextPath()%>/forgotpass.html">Forgot Password</a>
+                        <a href="<%=request.getContextPath()%>/forgotpass.jsp">Forgot Password</a>
                     </div>
                 </div>
             </div>
