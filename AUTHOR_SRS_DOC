@@ -1,0 +1,135 @@
+# Authors Dashboard Page
+
+## 1. Introduction
+
+This document outlines the System Requirements Specification (SRS) for the Authors Dashboard page within a publishing platform. The Authors Dashboard will provide authors with a central location to manage their ResearchPapers, track performance, and interact with the platform.
+
+## 2. Overall Description
+
+The Authors Dashboard is a web-based user interface designed for authors who have published or are in the process of publishing ResearchPapers through the platform. It will provide a comprehensive overview of their author activity, including:
+    2.1.Registration and Login
+    2.2.Forgot Password
+    2.3.ResearchPapers submission
+    2.4.Submission status Tracking
+    2.5.Update Submission
+    2.6.Review
+    2.7.Account Settings
+
+## 3. Specific Requirements
+    3.1 Functional Requirements:
+        3.1.1.Registration :-
+                The system shall provide a registration form for new authors.
+                The form shall collect necessary user information such as name, email address, username, and password.
+                The system shall validate user input for proper format and potential duplicate usernames/emails.
+                Upon successful registration, the system shall create a new author account and send a confirmation email.
+
+            Login:-
+                The system shall display a login form for registered authors.
+                The form shall require username/email and password for authentication.
+                The system shall validate login credentials against stored user data.
+                Upon successful login, the system shall redirect the author to their dashboard.
+
+        3.1.2.Forgot password:-
+                The system shall provide a "Forgot Password" functionality.
+                Authors can enter their registered email address to initiate password recovery.
+                The system shall send a password reset email with a secure link or temporary password.
+                Clicking the link or using the temporary password shall allow the author to reset their password.
+                The new password shall meet minimum security requirements (e.g., length, complexity).
+
+        3.1.3. ResearchPapers submission:-
+
+                3.1.3.a. Manuscript Upload:-
+                Allow authors to Upload their research paper manuscript in supported file formats (e.g., DOCX, PDF).
+                Enter relevant metadata about the paper, such as title, abstract, keywords, and author information.
+                Validate file size and type to ensure compatibility.
+
+                3.1.3.b. Metadata Entry:-
+                Provide a user-friendly interface for entering paper metadata:
+                Title
+                Abstract
+                Keywords
+                
+                3.1.3.c. Confirmation:- Provide confirmation messages upon successful submission.
+
+        3.1.4. Submission Status Tracking:-
+
+                3.1.4.a. Submission List:
+                Display a list of all the author's submitted papers, include title, genre, and submission date for each Reaserachpapers.
+
+                3.1.4.b. Status Tracking:
+                Clearly indicate the current submission status for each Reaserachpapers (e.g., badge, text label).
+                Offer authors a way to track the status of their submitted papers (e.g., under review, revisions required, accepted, rejected).
+
+        3.1.5. Update Submission:-
+
+                Update Selection: Allow authors to choose a specific ResearchPaper from their list for update submission.
+
+                Update Type Selection: Enable authors to designate the type of update (e.g., content revision, cover image change, additional chapter, delete the content).
+
+                Update Details: Provide a dedicated section for authors to describe the update clearly (e.g., revised chapter details, correction information).
+
+                Submission Workflow: Establish a clear submission process, including confirmation steps and status updates for authors.
+
+                File Upload: Allow authors to upload relevant files for the update (e.g., revised manuscript chapter, new cover image).
+
+        3.1.6.Check review:-
+                reviewers' POV:
+                Access individual reviewer reports, including:
+                Overall rating .
+                Detailed feedback on strengths and weaknesses of the work.
+                Specific comments and suggestions provided by the reviewer.
+
+                Authors' POV:
+                Feature	                                                         Description
+                Access Review	                        The author can access a list of all reviews received for their published books.
+                Review Details	                        Each review should display the following details:  * Reviewer name * Rating  * Review text * Date of review
+                Filter Reviews	                        The author can filter reviews by:  * Book title * Rating  * Date range
+                Respond to Reviews	                    The author can compose and submit a response to any review.
+                Flag Review	                            The author can flag a review for inappropriate content or violation of platform guidelines.
+                Review Visibility	                    The author can choose to:  * Hide their response from public view.  * Delete their response.
+
+        3.1.7.Account Settings:-
+                3.1.7.a. Profile Management:
+                Update author profile details (name, bio, photo).
+                Edit profile visibility settings (public/private).
+
+                3.1.7.b. Account Security:
+                Change account password.
+                Manage two-factor authentication.
+
+                3.1.7.c. Account Deactivation:
+                Allow authors to deactivate their account .
+
+                3.1.7.d. Contact Support:
+                Provide a method for authors to contact platform support for any inquiries.
+
+3.2 Non-Functional Requirements
+
+    Security:
+    User authentication and authorization to ensure only registered authors can access the dashboard.
+    Secure storage of author data and ResearchPapers information.
+    Protection against unauthorized access and data breaches.
+    Performance:
+    The dashboard should load quickly and function smoothly across various devices (desktops, tablets, mobile phones).
+    Data visualizations and reports should generate and display efficiently.
+    Usability:
+    The user interface should be intuitive and easy to navigate for authors with varying levels of technical expertise.
+    Clear labeling and consistent design elements should promote user comprehension.
+    Search functionality to easily locate specific ResearchPapers or data within the dashboard.
+
+
+## 4.  Interfaces
+
+The Authors Dashboard will be a web-based interface accessible through any standard web browser.
+
+## 5.  External Interfaces
+
+The Authors Dashboard may interact with other platform functionalities such as:
+Reader review and rating system.
+Speakers' Review System.
+
+
+## 6. Other Considerations
+The specific features and functionalities of the Authors Dashboard may vary depending on the platform's overall capabilities and target audience.
+Internationalization and localization features can be considered to support authors in different regions and languages.
+Accessibility features to cater to users with disabilities should be incorporated.
